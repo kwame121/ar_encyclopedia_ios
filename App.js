@@ -1,55 +1,38 @@
-import React, {useState} from 'react';
-import {StyleSheet} from 'react-native';
-import {
-  ViroARScene,
-  ViroText,
-  ViroConstants,
-  ViroARSceneNavigator,
-} from '@viro-community/react-viro';
+import { StyleSheet, Text, View } from 'react-native';
+// import { NativeRouter, Route, Link,Routes } from "react-router-native";
+// import Library from './Views/Library';
+import SplashScreen from './Views/SplashScreen';
+// import Details from './Views/Details';
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import Main from './Components/Profile/BaseLayout/Main';
+import { colorScheme } from './Utils/constants';
+// import ModuleDetails from './Views/ModuleDetails';
 
-const HelloWorldSceneAR = () => {
-  const [text, setText] = useState('Initializing AR...');
+const Stack = createNativeStackNavigator()
 
-  function onInitialized(state, reason) {
-    console.log('guncelleme', state, reason);
-    if (state === ViroConstants.TRACKING_NORMAL) {
-      setText('Hello World!');
-    } else if (state === ViroConstants.TRACKING_NONE) {
-      // Handle loss of tracking
-    }
-  }
-
+export default function App() {
   return (
-    <ViroARScene onTrackingUpdated={onInitialized}>
-      <ViroText
-        text={text}
-        scale={[0.5, 0.5, 0.5]}
-        position={[0, 0, -1]}
-        style={styles.helloWorldTextStyle}
-      />
-    </ViroARScene>
+    <NavigationContainer >
+    <Stack.Navigator initialRouteName='Home'>
+      <Stack.Screen name="Home" component={SplashScreen} options={{title:'',headerStyle:{backgroundColor:'#1B262C'}}} />
+      <Stack.Screen name="Main" component={Main} options ={{title:'',headerShadowVisible: false, 
+      headerShown:false,
+      headerBackTitleVisible: false, headerBackVisible:false, gestureEnabled:false, headerStyle:{backgroundColor:colorScheme.dark} }}   />
+      {/* <Stack.Screen name="Details" component={Details} options ={{title:'',headerShadowVisible: false,
+      headerBackTitleVisible: false,}} />
+      <Stack.Screen name="Module" component={ModuleDetails} options ={{title:'Module Details',headerShadowVisible: true,
+      headerBackTitleVisible: false,}} /> */}
+    </Stack.Navigator>
+  </NavigationContainer>
   );
-};
+}
 
-export default () => {
-  return (
-    <ViroARSceneNavigator
-      autofocus={true}
-      initialScene={{
-        scene: HelloWorldSceneAR,
-      }}
-      style={styles.f1}
-    />
-  );
-};
-
-var styles = StyleSheet.create({
-  f1: {flex: 1},
-  helloWorldTextStyle: {
-    fontFamily: 'Arial',
-    fontSize: 30,
-    color: '#ffffff',
-    textAlignVertical: 'center',
-    textAlign: 'center',
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
   },
 });
