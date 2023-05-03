@@ -1,0 +1,246 @@
+export const portalAssets = [
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'1',
+        title:'The Grand Canyon',
+        backgroundUrl:require('../assets/images/portalAssets/canyon/canyonSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/canyon/canyonLabeled.jpg'),
+        location:'Arizona, USA',
+        isDeleted:false,
+        description:'The Grand Canyon (Hopi: Öngtupqa,[2] Yavapai: Wi:kaʼi:la, Navajo: Bidááʼ Haʼaztʼiʼ Tsékooh,[3][4] Southern Paiute language: Paxa’uipi,[5] Spanish: Gran Cañón or Gran Cañón del Colorado ) is a steep-sided canyon carved by the Colorado River in Arizona, United States. The Grand Canyon is 277 miles (446 km) long, up to 18 miles (29 km) wide and attains a depth of over a mile (6,093 feet or 1,857 meters).[6]: 902 '
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'2',
+        title:'Pyramids of Giza',
+        backgroundUrl:require('../assets/images/portalAssets/pyramids/pyramidsSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/pyramids/pyramidsLabeled.jpg'),
+        location:'Giza, Egypt',
+        isDeleted:false,
+        description:'The Great Pyramid of Giza[a] is the largest Egyptian pyramid and the tomb of Fourth Dynasty pharaoh Khufu. Built in the early 26th century BC during a period of around 27 years,[3] the pyramid is the oldest of the Seven Wonders of the Ancient World, and the only one to remain largely intact. As part of the Giza pyramid complex, it borders present-day Giza in Greater Cairo, Egypt.'
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'3',
+        title:'The Louvre Museum',
+        backgroundUrl:require('../assets/images/portalAssets/louvre/louvreSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/louvre/louvreLabeled.jpg'),
+        location:'Paris, France',
+        isDeleted:false,
+        description:"The Louvre (English: /ˈluːv(rə)/ LOOV(-rə)),[4] or the Louvre Museum (French: Musée du Louvre [myze dy luvʁ] (listen)), is the world's most-visited museum, and a historic landmark in Paris, France. It is the home of some of the best-known works of art, including the Mona Lisa and the Venus de Milo. A central landmark of the city, it is located on the Right Bank of the Seine in the city's 1st arrondissement (district or ward). At any given point in time, approximately 38,000 objects from prehistory to the 21st century are being exhibited over an area of 72,735 square meters (782,910 square feet)."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'4',
+        title:'The Great Barrier Reef',
+        backgroundUrl:require('../assets/images/portalAssets/reef/reefBig.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/reef/otherReef.jpg'),
+        location:'Queensland, Australia',
+        isDeleted:false,
+        description:"The Great Barrier Reef is the world's largest coral reef system[1][2] composed of over 2,900 individual reefs[3] and 900 islands stretching for over 2,300 kilometres (1,400 mi) over an area of approximately 344,400 square kilometres (133,000 sq mi).[4][5] The reef is located in the Coral Sea, off the coast of Queensland, Australia, separated from the coast by a channel 100 miles wide in places and over 200 feet deep.[6] The Great Barrier Reef can be seen from outer space and is the world's biggest single structure made by living organisms.[7] This reef structure is composed of and built by billions of tiny organisms, known as coral polyps.[8] It supports a wide diversity of life and was selected as a World Heritage Site in 1981.[1][2] CNN labelled it one of the seven natural wonders of the world in 1997.[9] Australian World Heritage places included it in its list in 2007.[10] The Queensland National Trust named it a state icon of Queensland in 2006.[11]"
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'5',
+        title:'Aurora Borealis (The Northern Lights)',
+        backgroundUrl:require('../assets/images/portalAssets/aurora/aurora.jpeg'),
+        portalImgUrl:require('../assets/images/portalAssets/aurora/aurora.jpeg'),
+        location:'Alaska, USA',
+        isDeleted:true,
+        description:"An aurora[a] (plural: auroras or aurorae),[b] also commonly known as the polar lights,[c] is a natural light display in Earth's sky, predominantly seen in high-latitude regions (around the Arctic and Antarctic). Auroras display dynamic patterns of brilliant lights that appear as curtains, rays, spirals, or dynamic flickers covering the entire sky.[3] Auroras are the result of disturbances in the magnetosphere caused by the solar wind. Major disturbances result from enhancements in the speed of the solar wind from coronal holes and coronal mass ejections. These disturbances alter the trajectories of charged particles in the magnetospheric plasma. These particles, mainly electrons and protons, precipitate into the upper atmosphere (thermosphere/exosphere). The resulting ionization and excitation of atmospheric constituents emit light of varying colour and complexity. The form of the aurora, occurring within bands around both polar regions, is also dependent on the amount of acceleration imparted to the precipitating particles. Most of the planets in the Solar System, some natural satellites, brown dwarfs, and even comets also host auroras."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:'6',
+        title:'Mount Everest',
+        backgroundUrl:require('../assets/images/portalAssets/everest/everestSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/everest/everestBig.jpg'),
+        location:'Nepal',
+        isDeleted:true,
+        description:"Mount Everest (Nepali: सगरमाथा, romanized: Sagarmāthā; Tibetan: Chomolungma ཇོ་མོ་གླང་མ; Chinese: 珠穆朗玛峰; pinyin: Zhūmùlǎngmǎ Fēng) is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas. The China–Nepal border runs across its summit point.[2] Its elevation (snow height) of 8,848.86 m (29,031.7 ft) was most recently established in 2020 by the Chinese and Nepali authorities.[3] Mount Everest attracts many climbers, including highly experienced mountaineers. There are two main climbing routes, one approaching the summit from the southeast in Nepal (known as the 'standard route') and the other from the north in Tibet. While not posing substantial technical climbing challenges on the standard route, Everest presents dangers such as altitude sickness, weather, and wind, as well as hazards from avalanches and the Khumbu Icefall. As of 2019, over 300 people have died on Everest,[4] many of whose bodies remain on the mountain.[5]"
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"7",
+        title:'The Milky Way',
+        backgroundUrl:require('../assets/images/portalAssets/milkyWay/milkywaysmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/milkyWay/galaxyLabeled.jpg'),
+        location:'All around you',
+        isDeleted:false,
+        description:"The Milky Way[b] is the galaxy that includes our Solar System, with the name describing the galaxy's appearance from Earth: a hazy band of light seen in the night sky formed from stars that cannot be individually distinguished by the naked eye. The term Milky Way is a translation of the Latin via lactea, from the Greek γαλακτικός κύκλος (galaktikos kýklos), meaning 'milky circle'.[18][19][20] From Earth, the Milky Way appears as a band because its disk-shaped structure is viewed from within. Galileo Galilei first resolved the band of light into individual stars with his telescope in 1610. Until the early 1920s, most astronomers thought that the Milky Way contained all the stars in the Universe.[21] Following the 1920 Great Debate between the astronomers Harlow Shapley and Heber Curtis,[22] observations by Edwin Hubble showed that the Milky Way is just one of many galaxies."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"8",
+        title:'Surface of Mars',
+        backgroundUrl:require('../assets/images/portalAssets/mars/marsSmall.jpeg'),
+        portalImgUrl:require('../assets/images/portalAssets/mars/marsBig.jpeg'),
+        location:'Mars, Ares Vallis',
+        isDeleted:true,
+        description:"Mars is a terrestrial planet with a surface that consists of minerals containing silicon and oxygen, metals, and other elements that typically make up rock. The Martian surface is primarily composed of tholeiitic basalt,[70] although parts are more silica-rich than typical basalt and may be similar to andesitic rocks on Earth, or silica glass. Regions of low albedo suggest concentrations of plagioclase feldspar, with northern low albedo regions displaying higher than normal concentrations of sheet silicates and high-silicon glass. Parts of the southern highlands include detectable amounts of high-calcium pyroxenes. Localized concentrations of hematite and olivine have been found.[71] Much of the surface is deeply covered by finely grained iron(III) oxide dust.[72]"
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"9",
+        title:'Times Square, New York City',
+        backgroundUrl:require('../assets/images/portalAssets/timeSquare/timesSquareSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/timeSquare/timeSquareLabeled.jpg'),
+        location:'New York, USA',
+        isDeleted:false,
+        description:"Times Square is a major commercial intersection, tourist destination, entertainment hub, and neighborhood in Midtown Manhattan, New York City. It is formed by the junction of Broadway, Seventh Avenue, and 42nd Street. Together with adjacent Duffy Square, Times Square is a bowtie-shaped space five blocks long between 42nd and 47th Streets. Brightly lit at all hours by numerous billboards and advertisements as well as businesses offering 24/7 service, Times Square is sometimes referred to as 'the Crossroads of the World',[2] 'the Center of the Universe',[3] 'the heart of the Great White Way',[4][5][6] and 'the heart of the world'.[7]One of the world's busiest pedestrian areas,[8] it is also the hub of the Broadway Theater District[9] and a major center of the world's entertainment industry.[10] Times Square is one of the world's most visited tourist attractions, drawing an estimated 50 million visitors annually.[11] Approximately 330,000 people pass through Times Square daily,[12] many of them tourists,[13] while over 460,000 pedestrians walk through Times Square on its busiest days.[7] The Times Square-42nd Street station has consistently ranked as the busiest in the New York City Subway system, transporting more than 200,000 passengers daily.[14]"
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"10",
+        title:'Eiffel Tower, France',
+        backgroundUrl:require('../assets/images/portalAssets/eiffel/eiffelBig.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/eiffel/eiffelTowerLabeled.jpg'),
+        location:'Paris, France',
+        isDeleted:false,
+        description:"The Eiffel Tower (/ˈaɪfəl/ EYE-fəl; French: tour Eiffel [tuʁ‿ɛfɛl] (listen)) is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower. Locally nicknamed 'La dame de fer' (French for 'Iron Lady'), it was constructed from 1887 to 1889 as the centerpiece of the 1889 World's Fair. Although initially criticised by some of France's leading artists and intellectuals for its design, it has since become a global cultural icon of France and one of the most recognisable structures in the world.[3] The Eiffel Tower is the most visited monument with an entrance fee in the world: 6.91 million people ascended it in 2015. It was designated a monument historique in 1964, and was named part of a UNESCO World Heritage Site ('Paris, Banks of the Seine') in 1991.[4]"
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"11",
+        title:'Winter',
+        backgroundUrl:require('../assets/images/portalAssets/winter/winterSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/winter/winterBig.jpg'),
+        location:'Washington DC, USA',
+        isDeleted:false,
+        description:"Winter is the coldest season of the year in polar and temperate climates. It occurs after autumn and before spring. The tilt of Earth's axis causes seasons; winter occurs when a hemisphere is oriented away from the Sun. Different cultures define different dates as the start of winter, and some use a definition based on weather. When it is winter in the Northern Hemisphere, it is summer in the Southern Hemisphere, and vice versa. In many regions, winter brings snow and freezing temperatures. The moment of winter solstice is when the Sun's elevation with respect to the North or South Pole is at its most negative value; that is, the Sun is at its farthest below the horizon as measured from the pole. The day on which this occurs has the shortest day and the longest night, with day length increasing and night length decreasing as the season progresses after the solstice."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"12",
+        title:'London',
+        backgroundUrl:require('../assets/images/portalAssets/london/londonSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/london/londonLabeled.jpg'),
+        location:'London, UK',
+        isDeleted:false,
+        description:"London, the capital of England and the United Kingdom, is a 21st-century city with history stretching back to Roman times. At its centre stand the imposing Houses of Parliament, the iconic ‘Big Ben’ clock tower and Westminster Abbey, site of British monarch coronations. Across the Thames River, the London Eye observation wheel provides panoramic views of the South Bank cultural complex, and the entire city. "
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"13",
+        title:'Yellowstone Park',
+        backgroundUrl:require('../assets/images/portalAssets/yellowstone/yellowstoneSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/yellowstone/yosemiteLabeled.jpg'),
+        location:'Wyoming, US',
+        isDeleted:false,
+        description:"Yellowstone National Park is a nearly 3,500-sq.-mile wilderness recreation area atop a volcanic hot spot. Mostly in Wyoming, the park spreads into parts of Montana and Idaho too. Yellowstone features dramatic canyons, alpine rivers, lush forests, hot springs and gushing geysers, including its most famous, Old Faithful. It's also home to hundreds of animal species, including bears, wolves, bison, elk and antelope."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"14",
+        title:'The Colosseum',
+        backgroundUrl:require('../assets/images/portalAssets/colosseum/colosseumSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/colosseum/colosseumBig.jpg'),
+        location:'Rome, Italy',
+        isDeleted:false,
+        description:"The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72[1] and was completed in 80 AD under his successor and heir, Titus (r. 79–81).[2] Further modifications were made during the reign of Domitian (r. 81–96).[3] The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius)."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"15",
+        title:'Desert Mountain',
+        backgroundUrl:require('../assets/images/portalAssets/nevada/nevadaCanyonSmall.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/nevada/nevadaCanyonBig.jpg'),
+        location:'Nevada, US',
+        isDeleted:false,
+        description:"The Colosseum (/ˌkɒləˈsiːəm/ KOL-ə-SEE-əm; Italian: Colosseo [kolosˈsɛːo]) is an oval amphitheatre in the centre of the city of Rome, Italy, just east of the Roman Forum. It is the largest ancient amphitheatre ever built, and is still the largest standing amphitheatre in the world today, despite its age. Construction began under the emperor Vespasian (r. 69–79 AD) in 72[1] and was completed in 80 AD under his successor and heir, Titus (r. 79–81).[2] Further modifications were made during the reign of Domitian (r. 81–96).[3] The three emperors that were patrons of the work are known as the Flavian dynasty, and the amphitheatre was named the Flavian Amphitheatre (Latin: Amphitheatrum Flavium; Italian: Anfiteatro Flavio [aɱfiteˈaːtro ˈflaːvjo]) by later classicists and archaeologists for its association with their family name (Flavius)."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"16",
+        title:'Indonesia Coral Reef',
+        backgroundUrl:require('../assets/images/portalAssets/indonesia/Indonesia.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/indonesia/Indonesia.jpg'),
+        location:'Batu Bolong, Raja Ampat, Indonesia',
+        isDeleted:false,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"17",
+        title:'The Forbidden City',
+        backgroundUrl:require('../assets/images/portalAssets/forbiddenCity/forbiddenCityLabeled.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/forbiddenCity/forbiddenCityLabeled.jpg'),
+        location:'Beijing, China',
+        isDeleted:false,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"18",
+        title:'Great Wall of China',
+        backgroundUrl:require('../assets/images/portalAssets/greatWall/greatWallLabeled.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/greatWall/greatWallLabeled.jpg'),
+        location:'Beijing, China',
+        isDeleted:false,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"19",
+        title:'Annapurna II',
+        backgroundUrl:require('../assets/images/portalAssets/himalayas/himalayas-min.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/himalayas/himalayas.jpg'),
+        location:'Nepal',
+        isDeleted:false,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"20",
+        title:'Sydney Opera House',
+        backgroundUrl:require('../assets/images/portalAssets/sydney/sydneyLabeled-min.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/sydney/sydneyLabeled1.jpg'),
+        location:'Nepal',
+        isDeleted:true,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"21",
+        title:'Hong Kong',
+        backgroundUrl:require('../assets/images/portalAssets/hongKong/hongKong-min.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/hongKong/hongkongLabeled.jpg'),
+        location:'Nepal',
+        isDeleted:true,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+    {
+        videoSrc:'',
+        isVideo:false,
+        id:"22",
+        title:'Beku Shark Dive, Fiji',
+        backgroundUrl:require('../assets/images/portalAssets/sharks/sharks.jpg'),
+        portalImgUrl:require('../assets/images/portalAssets/sharks/sharksBig.jpg'),
+        location:'Fiji',
+        isDeleted:false,
+        description:"Batu Bolong Beach is a beautiful beach located in Canggu, west of Denpasar City appointed as one of best surf spots and tourist place in Bali."
+    },
+
+    
+    ]

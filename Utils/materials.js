@@ -1,0 +1,46 @@
+export const materials = {
+    "globe":{
+        diffuseTexture:require('../assets/models/Earth/Ocean_Mask_2K.png'),
+      },
+      "ocean":{
+        diffuseTexture:require('../assets/models/Earth/Night_lights_2K.png'),
+      },
+      "clouds":{
+        diffuseTexture:require('../assets/models/Earth/Clouds_2K.png'),
+        
+      },
+      "diffuse":{
+        diffuseTexture:require('../assets/models/Earth/Diffuse_2K.png'),
+      },
+      "heart":{
+        diffuseTexture:require('../assets/models/Heart/heartTexture.png')
+      },
+      "brain":{
+        diffuseTexture:require('../assets/models/Brain/brain_tex.jpg')
+      },
+      "golgi":{
+        diffuseTexture:require('../assets/models/AnimalCell/celula-2/textures/Material.010_normal.jpeg')
+      },
+      "liver":{
+        diffuseTexture:require('../assets/models/Liver/textures/material0_baseColor.jpeg')
+      },
+      "extract1":{
+        diffuseTexture:require('../assets/models/Skin/textures/Extract1_diffuse.png')
+      },
+      "extract3":{
+        diffuseTexture:require('../assets/models/Skin/textures/Extract3_1_diffuse.png')
+      },
+      "extract8":{
+        diffuseTexture:require('../assets/models/Skin/textures/Extract8_diffuse.png')
+      },
+      "Material":{
+        diffuseTexture:require('../assets/models/Skin/textures/material_diffuse.png')
+      },
+      "PM3D":{
+        diffuseTexture:require('../assets/models/Skin/textures/PM3D_Sphere3D2_2_diffuse.png')
+      },
+      "ZSphere":{
+        diffuseTexture:require('../assets/models/Skin/textures/Skin_ZSphere_4_diffuse.png')
+      }
+
+}
